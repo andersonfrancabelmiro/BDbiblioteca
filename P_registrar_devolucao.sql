@@ -31,7 +31,7 @@ BEGIN
 
 		ELSE
 		BEGIN
-			PRINT'ERRO  NA DEVULUCAO!'
+			PRINT 'ERRO  NA DEVULUCAO!'
 		END
 		IF EXISTS 
 			(SELECT 1 FROM tbl_emprestimo WHERE id_livrofk = @id_livro AND @Data_atual < data_devolucao )
