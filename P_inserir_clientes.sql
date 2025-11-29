@@ -1,7 +1,7 @@
 USE biblioteca_marcao;
 GO
 
-ALTER PROCEDURE P_inserir_clientes
+CREATE PROCEDURE P_inserir_clientes
 (
 
 	@nome VARCHAR(100),

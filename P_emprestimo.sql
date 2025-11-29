@@ -1,7 +1,7 @@
 USE biblioteca_marcao;
 GO
 
-ALTER PROCEDURE P_emprestimo
+CREATE PROCEDURE P_emprestimo
 (
 		@idlvrofk	INT,
 		@telefonefk	BIGINT NULL
