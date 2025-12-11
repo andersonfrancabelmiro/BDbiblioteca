@@ -27,6 +27,7 @@ BEGIN
 						(@data_emprestimo,@data_devolucao,@idlvrofk,@telefonefk)
 					
 							EXEC P_livro_disponivel  @idlvrofk
+							 PRINT 'EMPRESTIMO REALIZADO'
 					COMMIT
 				  END
 				 

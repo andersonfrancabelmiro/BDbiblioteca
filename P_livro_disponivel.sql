@@ -16,7 +16,7 @@ BEGIN
 					SET	disponivel =  0
 					WHERE id_livro = @id_livro
 				COMMIT
-				PRINT 'EMPRESTIMO REALIZADO'
+				
 			END
 END
 GO
